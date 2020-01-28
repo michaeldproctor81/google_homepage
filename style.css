@@ -1,0 +1,102 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+}
+.header{
+    display: inline;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  #navleft a {
+    float: left;
+    display: block;
+    color: #000;
+  }
+  #navright a{
+    float: right;
+    display: block;
+    color: #000;
+  }
+ .header a:hover {
+    color:#000;
+    opacity: 0.85;
+    text-decoration: underline;
+  }
+  
+  li a {
+    display: inline;
+    color: ;
+    padding: 14px 12px;
+    text-decoration: none;
+  }
+  .navright,
+  .GoogleAppStore{
+      opacity: 0.85;
+  }
+  footer{
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background: #f2f2f2;
+      color: #000;
+  }
+  .footer a:hover {
+    color:#000;
+    opacity: 0.85;
+    text-decoration: underline;
+  }
+  #bottomnavleft{
+      float: left;
+      color: #5f6368;
+  }
+  #bottomnavright{
+      float: right;
+      color: #5f6368;
+  }
+  main{
+      padding-top: 109px;
+  }
+  #search-bar{
+      height: 44px;
+      width: 582px;
+      border-radius: 24px;
+      padding: 3px 10px 0 10px;
+      margin: 0 auto;
+      margin-top: 18px;
+      border: 1px solid #dfe1e5;
+  }
+  #search-bar input{
+      background-color: #ffffff;
+      border:none;
+      outline: none;
+      padding: 3px 10px 0 10px;
+      float: left;
+      line-height: 34px;
+      font: 16px arial,sans-serif;
+      width: 470px;
+      margin-top: 8px;
+
+  }
+  .GoogleMagGlass{
+      float:left;
+      padding: 15px 10px 0 10px;
+      opacity: 0.5;
+  }
+  #buttons button{
+      padding: 0px 16px;
+      margin: 20px 4px;
+      height: 36px;
+      font-size: 14px;
+      color: #5F6368;
+      outline: none;
+      box-shadow: rgb(190, 190, 190);
+      cursor: pointer;
+      background-color: #f2f2f2;
+      border: 10px;
+  }
